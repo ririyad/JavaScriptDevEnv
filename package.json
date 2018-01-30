@@ -2,7 +2,9 @@
   "name": "javascriptdevenv",
   "version": "1.0.0",
   "description": "JavaScript development environment",
-  "scripts": {},
+  "scripts": {
+    "start": "node buildScripts/srcServer.js"
+  },
   "author": "ririyad",
   "license": "MIT",
   "dependencies": {
