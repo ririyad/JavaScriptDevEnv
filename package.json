@@ -7,7 +7,8 @@
     "start": "npm-run-all --parallel security-check open:src",
     "open:src": "node buildScripts/srcServer.js",
     "security-check": "nsp check",
-    "share": "lt --port 3030"
+    "localtunnel": "lt --port 3030",
+    "share": "npm-run-all --parallel security-check open:src localtunnel"
   },
   "author": "ririyad",
   "license": "MIT",
