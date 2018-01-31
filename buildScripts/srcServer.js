@@ -1,8 +1,8 @@
 // this file will configure a web server that will serve up the files in the source directory
 
-var express = require('express');
-var path = require('path');
-var open = require('open');
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
 var port = 3030;
 var app = express();
