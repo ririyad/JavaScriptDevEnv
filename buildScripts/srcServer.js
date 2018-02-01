@@ -11,6 +11,7 @@ const port = 3030;
 const app = express();
 const compiler = webpack(config);
 
+/* eslint-disable no-console */
 app.use(middleware(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
